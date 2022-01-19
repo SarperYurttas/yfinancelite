@@ -17,6 +17,10 @@ ticker.earnings
 #In order to access this features you should call get_history() method.
 ticker.history
 ticker.events
+
+#Download tickers as batch
+tickers = ['AAPL','MSFT','TSLA']
+df = yfl.download(tickers)
 ```
 
 ### Legal Disclaimer
